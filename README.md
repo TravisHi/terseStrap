@@ -1,0 +1,2 @@
+# terseStrap
+ Terse classes

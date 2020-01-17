@@ -1,0 +1,234 @@
+/******************/
+/* Flex utilities */
+.df,
+.d-f,
+.flex {
+    display: flex;
+}
+
+.fd-r {
+    flex-direction: row;
+}
+
+.fd-rr {
+    flex-direction: row-reverse;
+}
+
+.fd-c {
+    flex-direction: column;
+}
+
+.df-cr {
+    flex-direction: column-reverse;
+}
+
+.fw-w {
+    flex-wrap: wrap;
+}
+
+.fw-nw {
+    flex-wrap: nowrap;
+}
+
+
+
+/* align items/content */
+.ac-b {
+    align-content: baseline;
+}
+
+.ac-s {
+    align-content: flex-start;
+}
+
+.ac-c {
+    align-content: center;
+}
+
+.ac-e {
+    align-content: flex-end;
+}
+
+.ac-str {
+    align-content: stretch;
+}
+
+
+
+/* justify content */
+.jc-s {
+    justify-content: flex-start;
+}
+
+.jc-c {
+    justify-content: center;
+}
+
+.jc-e {
+    justify-content: flex-end;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.jc-sa {
+    justify-content: space-around;
+}
+
+.jc-se {
+    justify-content: space-evenly;
+}
+
+
+
+/* align & justify content */
+.ac-s--jc-s,
+.jc-s--ac-s,
+.as-js,
+.js-as,
+.ajs,
+.jas {
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+
+.ac-s--jc-c,
+.jc-c--ac-s,
+.as-jc,
+.jc-as {
+    align-content: flex-start;
+    justify-content: center;
+}
+
+.ac-s--jc-e,
+.jc-e--ac-s,
+.as-je,
+.je-as {
+    align-content: flex-start;
+    justify-content: flex-end;
+}
+
+.ac-c--jc-c,
+.jc-c--ac-c,
+.ac-jc,
+.jc-ac,
+.ajc,
+.jac {
+    align-content: center;
+    justify-content: center;
+}
+
+.ac-e--jc-s,
+.jc-s--ac-e {
+    align-content: flex-end;
+    justify-content: flex-start;
+}
+
+.ac-e--jc-e,
+.jc-e--ac-e,
+.ae-je,
+.je-ae,
+.aje,
+.jae {
+    align-content: flex-end;
+    justify-content: flex-end;
+}
+
+
+
+
+
+/******************/
+/* text utilities */
+/******************/
+
+/* text alignment */
+.ta-l {
+    text-align: left;
+}
+
+.ta-c {
+    text-align: center;
+}
+
+.ta-r {
+    text-align: right;
+}
+
+
+
+/* font weight */
+.fw-100 {
+    font-weight: 100 !important;
+}
+
+.fw-200 {
+    font-weight: 200 !important;
+}
+
+.fw-300 {
+    font-weight: 300 !important;
+}
+
+.fw-400 {
+    font-weight: 400 !important;
+}
+
+.fw-500 {
+    font-weight: 500 !important;
+}
+
+.fw-600 {
+    font-weight: 600 !important;
+}
+
+.fw-700 {
+    font-weight: 700 !important;
+}
+
+.fw-800 {
+    font-weight: 800 !important;
+}
+
+.fw-900 {
+    font-weight: 900 !important;
+}
+
+
+
+/* font size */
+.fs-10 {
+    font-size: 10px !important;
+}
+
+.fs-12 {
+    font-size: 12px !important;
+}
+
+.fs-14 {
+    font-size: 14px !important;
+}
+
+.fs-16 {
+    font-size: 16px !important;
+}
+
+.fs-18 {
+    font-size: 18px !important;
+}
+
+.fs-20 {
+    font-size: 20px !important;
+}
+
+.fs-22 {
+    font-size: 22px !important;
+}
+
+
+
+/* text decoration */
+.td-n {
+    text-decoration: none;
+}
