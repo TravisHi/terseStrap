@@ -1,6 +1,6 @@
 # terseStrap
 
-## V 0.1.1 Not ready for mass consumption
+## V 0.1.2 Not ready for mass consumption
  TerseStrap is a collection of .SCSS utility classes based on common CSS rules that I find myself reusing.
 
  Frustrated with lack of multi-language auto completion support for common BS4 classes, I set out
@@ -28,4 +28,9 @@
  ```
 
 ## Project goals
- Eventually I want to turn this into an easily accessible npm package
+ Eventually I want to turn this into an easily accessible npm package.
+
+
+## Contributing
+ Fork the repo then submit a PR.
+ Raise an issue and I'll check it out.

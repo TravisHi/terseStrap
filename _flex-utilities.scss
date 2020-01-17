@@ -6,19 +6,43 @@
     display: flex;
 }
 
-.fd-r {
+.dfr {
+    display: flex;
     flex-direction: row;
 }
 
-.fd-rr {
+.dfrr {
+    display: flex;
     flex-direction: row-reverse;
 }
 
-.fd-c {
+.dfc {
+    display: flex;
     flex-direction: column;
 }
 
-.fd-cr {
+.dfcr {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.fd-r,
+.fr {
+    flex-direction: row;
+}
+
+.fd-rr,
+.frr {
+    flex-direction: row-reverse;
+}
+
+.fd-c,
+.fc {
+    flex-direction: column;
+}
+
+.fd-cr,
+.fcr {
     flex-direction: column-reverse;
 }
 
@@ -218,53 +242,62 @@
 
 /* text alignment */
 .ta-l {
-    text-align: left;
+    text-align: left !important;
 }
 
 .ta-c {
-    text-align: center;
+    text-align: center !important;
 }
 
 .ta-r {
-    text-align: right;
+    text-align: right !important;
 }
 
 
 
 /* font weight */
-.fw-100 {
+.fw-100,
+.fw-1 {
     font-weight: 100 !important;
 }
 
-.fw-200 {
+.fw-200,
+.fw-2 {
     font-weight: 200 !important;
 }
 
-.fw-300 {
+.fw-300,
+.fw-3 {
     font-weight: 300 !important;
 }
 
-.fw-400 {
+.fw-400,
+.fw-4 {
     font-weight: 400 !important;
 }
 
-.fw-500 {
+.fw-500,
+.fw-5 {
     font-weight: 500 !important;
 }
 
-.fw-600 {
+.fw-600,
+.fw-6 {
     font-weight: 600 !important;
 }
 
-.fw-700 {
+.fw-700,
+.fw-7 {
     font-weight: 700 !important;
 }
 
-.fw-800 {
+.fw-800,
+.fw-8 {
     font-weight: 800 !important;
 }
 
-.fw-900 {
+.fw-900,
+.fw-9 {
     font-weight: 900 !important;
 }
 
@@ -304,4 +337,48 @@
 /* text decoration */
 .td-n {
     text-decoration: none;
+}
+
+
+
+
+/* z-indexes */
+.z-1 {
+    z-index: 1;
+}
+
+.z-2 {
+    z-index: 2;
+}
+
+.z-3 {
+    z-index: 3;
+}
+
+.z-4 {
+    z-index: 4;
+}
+
+.z-5 {
+    z-index: 5;
+}
+
+.z-6 {
+    z-index: 6;
+}
+
+.z-7 {
+    z-index: 7;
+}
+
+.z-8 {
+    z-index: 8;
+}
+
+.z-9 {
+    z-index: 9;
+}
+
+.z-10 {
+    z-index: 10;
 }
