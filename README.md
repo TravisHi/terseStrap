@@ -1,6 +1,6 @@
 # terseStrap
 
-## V 0.1.2 Not ready for mass consumption
+## V 0.4.0 Not ready for mass consumption
  TerseStrap is a collection of .SCSS utility classes based on common CSS rules that I find myself reusing.
 
  Frustrated with lack of multi-language auto completion support for common BS4 classes, I set out
@@ -14,7 +14,6 @@
 ## Design Philosophy
  The classes I've created generally follow a property - value approach.
  e.g. `.ta-l = text-align (property), left (value)`
-
 
  Some classes provide multiple options.
  
@@ -34,3 +33,8 @@
 ## Contributing
  Fork the repo then submit a PR.
  Raise an issue and I'll check it out.
+
+
+## Changelog (starting 0.4.0):
+ - Adjusted versioning to better match `semver.org` (currently no hotfixes have been made, only backward compatible updates)
+ - Added optional boilerplate
