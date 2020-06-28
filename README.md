@@ -22,11 +22,12 @@ No IE support.
  Consider the following:
  - `.ai-s--jc-s` for a relatively long class (align-items-start--justify-content-start)
  - `.ajs` for the tersest class (alignitemsjustifystart) very dense, only 3 key strokes.
- Both of the above classes provide the same css declarations:
+ Both of the above classes provide the same css declarations below:
  ```
  align-content: flex-start;
  justify-content: flex-start;
  ```
+ These two classes are simply different ways to make the same declarations, one is slightly more readable, the other terser. There are many instances of classes like this.
  
 **Is this readable?** Probably not. Make sure you document usage of this library in your project documentation so people don't freak out. Once you understand what these classes are saying, it's fairly self evident in what they are accomplishing.
 
@@ -50,10 +51,10 @@ While CSS in JS is fine, CSS still has an important place in modern web developm
 
 ## Changelog (starting 0.4.0):
 `Version 0.5.0:`
-- Remove "optional boilerplate" files. The goal of this project is to allow anyone to drop in these classes without worrying about compatibility or having to override anything with their own classes. This project is about universal plug and play, not reconfiguring or restyling (think bare bones, let the designers do their thing and let the devs save on some key strokes, no fighting with this library ever needed).
+- Removed "optional boilerplate" files. The goal of this project is to allow anyone to drop in these classes without worrying about compatibility or having to override anything with their own classes. This project is about universal plug and play, not reconfiguring or restyling (think bare bones, let the designers do their thing and let the devs save on some key strokes, no fighting with this library ever needed).
 - Confirm NO support for IE moving forward (ever).
 - Confirmed with NPM that scss packages are ok (it doesn't have to be a JS project).
-- Refined (base on the above point) project goals. Add new goals to push usable release out faster. Future responsive classes will be backward compatible.
+- Refined (based on the above point) project goals. Added new goals to push usable release out faster. Future responsive classes will be backward compatible.
 - Confirmed importance of project (i.e. why use it).
 - Add requirements as tersestrap will certainly use SCSS. TerseStrap will never rely on another library, outside of referring to popular conventions found in other libraries (especially bootstrap).
 
