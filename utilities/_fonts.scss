@@ -95,8 +95,28 @@
 }
 
 
+/* text colors */
+.tc-w {
+    color: #fff;
+}
 
-/* text decoration */
+.tc-b {
+    color: #000;
+}
+
+
+/*
+    text decoration.
+    remember to provide some indication
+    of user interaction for accessibility
+    purposes.
+*/
 .td-n {
-    text-decoration: none;
+    text-decoration: none !important;
+}
+
+.td-hn {
+    &:hover {
+        text-decoration: none !important;
+    }
 }
